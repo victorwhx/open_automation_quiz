@@ -1,18 +1,20 @@
 1. 搜索统计(Selenium)  完成。
-浏览器版本：
-    Chrome - 78.0.3904.87
-    IE - 11.719.18362.0
-结果截图路径：
-    src/main/resources
+   浏览器版本：
+       Chrome - 78.0.3904.87
+       IE - 11.719.18362.0
+   结果截图路径：
+       open_automation_quiz\seleniumProject\src\main\resources
     
     
 2. 企业复工申请资料提交表(Cucumber)  未完成。
-无Cucumber经验，暂时无法完成。
+   无Cucumber经验，暂时无法完成。
 
 
 3. 手机APP(Appium)  完成。
-手机型号：vivo x20, android 8.1.0
-测试App：豌豆荚 
-    版本：6.13.21
-    下载链接：
-https://android-apps.pp.cn/fs08/2020/01/17/0/120_71f1efb1dcdf33d9263d799a837ca75d.apk?yingid=web_space&packageid=200864427&md5=ec66c9d7e10f80110b9a7cfc414338ac&minSDK=14&size=13735913&shortMd5=3a4b1476fb39a4ed859002d0c054eeef&crc32=4115994834&did=adb8c1ae8172f5182629aba904cddd12
+   手机型号：vivo x20
+            android 8.1.0
+   测试App：豌豆荚 
+      版本：6.13.21
+      下载链接：https://android-apps.pp.cn/fs08/2020/01/17/0/120_71f1efb1dcdf33d9263d799a837ca75d.apk?yingid=web_space&packageid=200864427&md5=ec66c9d7e10f80110b9a7cfc414338ac&minSDK=14&size=13735913&shortMd5=3a4b1476fb39a4ed859002d0c054eeef&crc32=4115994834&did=adb8c1ae8172f5182629aba904cddd12
+   结果演示视频路径：
+       open_automation_quiz\AppiumProject\src\main\resources\TestWandoujia.mp4
