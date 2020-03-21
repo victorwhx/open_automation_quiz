@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="AppiumTest">
+    <test name="WandoujiaTest">
+        <classes>
+            <class name="com.test.script.TestApp">
+                <methods>
+                    <include name="runTestCases"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

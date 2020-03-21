@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="SearchItemsTest">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.test.script.TestSearch">
+                <methods>
+                    <include name="searchItemsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="IETest">
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name="com.test.script.TestSearch">
+                <methods>
+                    <include name="searchItemsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
