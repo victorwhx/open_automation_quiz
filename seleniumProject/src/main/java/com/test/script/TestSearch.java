@@ -52,12 +52,8 @@ public class TestSearch {
         List<WebElement> resultList = getElements("resultPage.resultItems");
 
         System.out.println("结果列表");
-        for (int i = 0; i < resultList.size(); i++) {
-            String xpath = bundle.getString("resultPage.resultItemPartA") + (i+1) +
-                    bundle.getString("resultPage.resultItemPartB");
-            WebElement tmp = resultList.get(i).findElement(By.xpath(xpath));
-
-            String href = tmp.getAttribute("href");
+        for (WebElement element : resultList) {
+            String href = element.getAttribute("href");
             String domainTmp = getDomain(href);
             if (domainTmp != null) {
                 domainList.add(domainTmp);
@@ -65,7 +61,7 @@ public class TestSearch {
                 Assert.fail("Failed to get the domain.");
             }
 
-            System.out.println(tmp.getText() + " ---> " + href);
+            System.out.println(element.getText() + " ---> " + href);
         }
 
         Map<String, Integer> map = new HashMap<>();
