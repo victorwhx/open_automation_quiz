@@ -1,0 +1,17 @@
+1. 搜索统计(Selenium)  完成。
+   浏览器版本：
+       Chrome - 78.0.3904.87
+       IE - 11.719.18362.0
+    
+    
+2. 企业复工申请资料提交表(Cucumber)  未完成。
+   无Cucumber经验，暂时无法完成。
+
+
+3. 手机APP(Appium)  完成。
+   Appium Server版本：v1.15.1 
+   手机型号：vivo x20
+            android 8.1.0
+   测试App：豌豆荚 
+      版本：6.13.21
+      下载链接：https://www.wandoujia.com/apps/280001/history
