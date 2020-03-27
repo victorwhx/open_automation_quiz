@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FillInFormCucumber">
+
+    <test name="fillInForm">
+        <classes>
+            <class name="com.cucumber.scripts.FillInFormRunner"></class>
+        </classes>
+    </test>
+
+</suite>

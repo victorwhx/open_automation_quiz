@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "simple scenario for multiple conditions",
+        "description": "",
+        "id": "fill-in-the-forms-on-different-pages.;simple-scenario-for-multiple-conditions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25319214700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser and enter the url: \"https://templates.jinshuju.net/detail/Dv9JPD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://templates.jinshuju.net/detail/Dv9JPD",
+                  "offset": 37
+                }
+              ],
+              "location": "FillInFormStepdefs.openTheBrowserAndEnterTheUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17429400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the first page is displayed",
+            "match": {
+              "location": "FillInFormStepdefs.theFirstPageIsDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044169100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select company type, take a screen shot, enter the second page",
+            "match": {
+              "location": "FillInFormStepdefs.selectCompanyTypeTakeAScreenShotEnterTheSecondPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 750700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the second page is displayed",
+            "match": {
+              "location": "FillInFormStepdefs.theSecondPageIsDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1623354300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input date, applier, applier`s contact info, take a screenshot, enter the third page",
+            "match": {
+              "location": "FillInFormStepdefs.inputDateApplierApplierSContactInfoTakeAScreenshotEnterTheThirdPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1789500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the third page is displayed",
+            "match": {
+              "location": "FillInFormStepdefs.theThirdPageIsDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2019090400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "input company info, workers, date, warning info, person in charge, content info, take a screenshot, enter the result page",
+            "match": {
+              "location": "FillInFormStepdefs.inputCompanyInfoWorkersDateWarningInfoPersonInChargeContentInfoTakeAScreenshotEnterTheResultPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result page is displayed",
+            "match": {
+              "location": "FillInFormStepdefs.theResultPageIsDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2039972900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "commit result \"提交成功\" is expected.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "提交成功",
+                  "offset": 15
+                }
+              ],
+              "location": "FillInFormStepdefs.commitResultIsExpected(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fill in the forms on different pages.",
+    "description": "       Verify whether commit OK or not.",
+    "id": "fill-in-the-forms-on-different-pages.",
+    "keyword": "Feature",
+    "uri": "src/main/resources/fillInform.feature"
+  }
+]
