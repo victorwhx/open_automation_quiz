@@ -47,7 +47,7 @@ public class ThirdPage extends BasePage {
         return this;
     }
 
-    public void andClickCommintButton(String key) {
+    public void andClickCommitButton(String key) {
         this.clickElement(key);
     }
 }

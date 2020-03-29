@@ -10,7 +10,7 @@ public class ResultPage extends BasePage {
 
     public void verifyResult(String key, String expectedResult) {
         String result = getElementText(key);
-        this.screenShot(this.getClass().getName());
+        this.screenShot("resultPage");
         Assert.assertEquals(result, expectedResult);
     }
 }
